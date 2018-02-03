@@ -2,8 +2,8 @@
 //load database connection
     $host = "localhost";
     $user = "root";
-    $password = "redhat";
-    $database_name = "apic";
+    $password = "redhat1234";
+    $database_name = "apicapi";
     $pdo = new PDO("mysql:host=$host;dbname=$database_name", $user, $password, array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
     ));
