@@ -1,0 +1,40 @@
+:LM-4602 marco$ python3 get_interfaces_yang.py
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+	<interface>
+		<name>GigabitEthernet1</name>
+		<type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+		<enabled>true</enabled>
+		<ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+			<address>
+				<ip>198.18.133.212</ip>
+				<netmask>255.255.192.0</netmask>
+			</address>
+		</ipv4>
+		<ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+	</interface>
+	<interface>
+		<name>GigabitEthernet2</name>
+		<type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+		<enabled>false</enabled>
+		<ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+		<ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+	</interface>
+</interfaces>
+
+:LM-4602 marco$ python3 get_one_interface_yang.py
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+	<interface>
+		<name>GigabitEthernet1</name>
+		<type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+		<enabled>true</enabled>
+		<ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+			<address>
+				<ip>198.18.133.212</ip>
+				<netmask>255.255.192.0</netmask>
+			</address>
+		</ipv4>
+		<ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+	</interface>
+</interfaces>
+
+

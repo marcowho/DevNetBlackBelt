@@ -1,0 +1,325 @@
+:LM-4602 marco$ python3 get_capabilities.py 
+***Here are the Remote Devices Capabilities***
+urn:ietf:params:netconf:base:1.0
+urn:ietf:params:netconf:base:1.1
+urn:ietf:params:netconf:capability:writable-running:1.0
+urn:ietf:params:netconf:capability:xpath:1.0
+urn:ietf:params:netconf:capability:validate:1.0
+urn:ietf:params:netconf:capability:validate:1.1
+urn:ietf:params:netconf:capability:rollback-on-error:1.0
+urn:ietf:params:netconf:capability:notification:1.0
+urn:ietf:params:netconf:capability:interleave:1.0
+http://tail-f.com/ns/netconf/actions/1.0
+urn:ietf:params:netconf:capability:with-defaults:1.0
+urn:ietf:params:xml:ns:yang:ietf-netconf-with-defaults
+http://cisco.com/ns/example/enable
+http://cisco.com/ns/genet/genet-state
+http://cisco.com/yang/cdp
+http://cisco.com/yang/cisco-ia
+http://cisco.com/yang/cisco-odm
+http://tail-f.com/ns/aaa/1.1
+http://tail-f.com/ns/mibs/IPV6-TC/199812010000Z
+http://tail-f.com/ns/mibs/SNMP-COMMUNITY-MIB/200308060000Z
+http://tail-f.com/ns/mibs/SNMP-FRAMEWORK-MIB/200210140000Z
+http://tail-f.com/ns/mibs/SNMP-MPD-MIB/200210140000Z
+http://tail-f.com/ns/mibs/SNMP-NOTIFICATION-MIB/200210140000Z
+http://tail-f.com/ns/mibs/SNMP-TARGET-MIB/200210140000Z
+http://tail-f.com/ns/mibs/SNMP-USER-BASED-SM-MIB/200210160000Z
+http://tail-f.com/ns/mibs/SNMP-VIEW-BASED-ACM-MIB/200210160000Z
+http://tail-f.com/ns/mibs/SNMPv2-MIB/200210160000Z
+http://tail-f.com/ns/mibs/SNMPv2-SMI/1.0
+http://tail-f.com/ns/mibs/SNMPv2-TC/1.0
+http://tail-f.com/ns/mibs/TRANSPORT-ADDRESS-MIB/200211010000Z
+http://tail-f.com/ns/webui
+http://tail-f.com/yang/acm
+http://tail-f.com/yang/common-monitoring
+http://tail-f.com/yang/confd-monitoring
+http://tail-f.com/yang/netconf-monitoring
+urn:cisco:params:xml:ns:yang:cisco-acl-oper
+urn:cisco:params:xml:ns:yang:cisco-bfd-state
+urn:cisco:params:xml:ns:yang:cisco-bgp-state
+urn:cisco:params:xml:ns:yang:cisco-bridge-common
+urn:cisco:params:xml:ns:yang:cisco-bridge-domain
+urn:cisco:params:xml:ns:yang:cisco-cfm-stats
+urn:cisco:params:xml:ns:yang:cisco-cfm-stats-dev
+urn:cisco:params:xml:ns:yang:cisco-checkpoint-archive
+urn:cisco:params:xml:ns:yang:cisco-efp-stats
+urn:cisco:params:xml:ns:yang:cisco-environment
+urn:cisco:params:xml:ns:yang:cisco-ethernet
+urn:cisco:params:xml:ns:yang:cisco-flow-monitor
+urn:cisco:params:xml:ns:yang:cisco-ip-sla-stats
+urn:cisco:params:xml:ns:yang:cisco-ip-sla-stats-dev
+urn:cisco:params:xml:ns:yang:cisco-lldp-state
+urn:cisco:params:xml:ns:yang:cisco-memory-stats
+urn:cisco:params:xml:ns:yang:cisco-mpls-fwd
+urn:cisco:params:xml:ns:yang:cisco-platform-software
+urn:cisco:params:xml:ns:yang:cisco-process-cpu
+urn:cisco:params:xml:ns:yang:cisco-process-memory
+urn:cisco:params:xml:ns:yang:cisco-qos-action-marking-cfg
+urn:cisco:params:xml:ns:yang:cisco-qos-action-qlimit-cfg
+urn:cisco:params:xml:ns:yang:cisco-qos-common
+urn:cisco:params:xml:ns:yang:cisco-routing-ext
+urn:cisco:params:xml:ns:yang:cisco-storm-control
+urn:cisco:params:xml:ns:yang:cisco-virtual-service
+urn:cisco:params:xml:ns:yang:govern
+urn:cisco:params:xml:ns:yang:pim
+urn:cisco:params:xml:ns:yang:pw
+urn:cisco:params:xml:ns:yang:table-map
+urn:ietf:params:xml:ns:yang:c3pl-types
+urn:ietf:params:xml:ns:yang:cisco-acl
+urn:ietf:params:xml:ns:yang:cisco-og
+urn:ietf:params:xml:ns:yang:cisco-ospf
+urn:ietf:params:xml:ns:yang:cisco-policy
+urn:ietf:params:xml:ns:yang:cisco-policy-filters
+urn:ietf:params:xml:ns:yang:cisco-policy-target
+urn:ietf:params:xml:ns:yang:common-mpls-static
+urn:ietf:params:xml:ns:yang:common-mpls-types
+urn:ietf:params:xml:ns:yang:iana-crypt-hash
+urn:ietf:params:xml:ns:yang:iana-if-type
+urn:ietf:params:xml:ns:yang:ietf-access-control-list
+urn:ietf:params:xml:ns:yang:ietf-diffserv-action
+urn:ietf:params:xml:ns:yang:ietf-diffserv-classifier
+urn:ietf:params:xml:ns:yang:ietf-diffserv-policy
+urn:ietf:params:xml:ns:yang:ietf-diffserv-target
+urn:ietf:params:xml:ns:yang:ietf-inet-types
+urn:ietf:params:xml:ns:yang:ietf-interfaces
+urn:ietf:params:xml:ns:yang:ietf-interfaces-ext
+urn:ietf:params:xml:ns:yang:ietf-ip
+urn:ietf:params:xml:ns:yang:ietf-ipv4-unicast-routing
+urn:ietf:params:xml:ns:yang:ietf-ipv6-unicast-routing
+urn:ietf:params:xml:ns:yang:ietf-key-chain
+urn:ietf:params:xml:ns:yang:ietf-netconf-acm
+urn:ietf:params:xml:ns:yang:ietf-netconf-monitoring
+urn:ietf:params:xml:ns:yang:ietf-netconf-notifications
+urn:ietf:params:xml:ns:yang:ietf-ospf
+urn:ietf:params:xml:ns:yang:ietf-packet-fields
+urn:ietf:params:xml:ns:yang:ietf-routing
+urn:ietf:params:xml:ns:yang:ietf-yang-smiv2
+urn:ietf:params:xml:ns:yang:ietf-yang-types
+urn:ietf:params:xml:ns:yang:nvo
+urn:ietf:params:xml:ns:yang:policy-attr
+urn:ietf:params:xml:ns:yang:smiv2:ATM-FORUM-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ATM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ATM-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:BGP4-MIB
+urn:ietf:params:xml:ns:yang:smiv2:BRIDGE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-AAA-SERVER-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-AAA-SESSION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-AAL5-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ATM-EXT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ATM-PVCTRAP-EXTN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ATM-QOS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-BGP-POLICY-ACCOUNTING-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-BGP4-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-BULK-FILE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CBP-TARGET-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CBP-TARGET-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CBP-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CDP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CEF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CEF-TC
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CLASS-BASED-QOS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CONFIG-COPY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CONFIG-MAN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-CONTEXT-MAPPING-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-DATA-COLLECTION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-DIAL-CONTROL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-DOT3-OAM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-DYNAMIC-TEMPLATE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-DYNAMIC-TEMPLATE-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-EIGRP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-EMBEDDED-EVENT-MGR-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENHANCED-MEMPOOL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-ALARM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-EXT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-FRU-CONTROL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-PERFORMANCE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-QFP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-SENSOR-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ENTITY-VENDORTYPE-OID-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ETHER-CFM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ETHERLIKE-EXT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-EVC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-FIREWALL-TC
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-FLASH-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-FRAME-RELAY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-FTP-CLIENT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-HSRP-EXT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-HSRP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-ATM2-PVCTRAP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-ATM2-PVCTRAP-MIB-EXTN
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-BFD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-FRR-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-ISIS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-MPLS-ID-STD-03-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-MPLS-TE-EXT-STD-03-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PPVPN-MPLS-VPN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-ATM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-ENET-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-MPLS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IETF-PW-TDM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IF-EXTENSION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IGMP-FILTER-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IMAGE-LICENSE-MGMT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IMAGE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IP-LOCAL-POOL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IP-TAP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IP-URPF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IPMROUTE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IPSEC-FLOW-MONITOR-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IPSEC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-IPSEC-POLICY-MAP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-LAG-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-LICENSE-MGMT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-MEDIA-GATEWAY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-MPLS-LSR-EXT-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-MPLS-TC-EXT-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-MVPN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-NBAR-PROTOCOL-DISCOVERY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-NETFLOW-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-NETSYNC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-NTP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-OSPF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-OSPF-TRAP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PIM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PING-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PPPOE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PROCESS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PRODUCTS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-PTP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-QINQ-VLAN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-QOS-PIB-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-RADIUS-EXT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-RF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-RTTMON-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SESS-BORDER-CTRLR-CALL-STATS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SESS-BORDER-CTRLR-STATS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SIP-UA-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SMI
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SONET-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-ST-TC
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-STP-EXTENSIONS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SUBSCRIBER-IDENTITY-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SUBSCRIBER-SESSION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SUBSCRIBER-SESSION-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-SYSLOG-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-TAP2-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-TC
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-UBE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-UNIFIED-FIREWALL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VLAN-IFTABLE-RELATIONSHIP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VLAN-MEMBERSHIP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VOICE-COMMON-DIAL-CONTROL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VOICE-DIAL-CONTROL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VOICE-DNIS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VPDN-MGMT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:CISCO-VTP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DIAL-CONTROL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DIFFSERV-DSCP-TC
+urn:ietf:params:xml:ns:yang:smiv2:DIFFSERV-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DISMAN-EVENT-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DISMAN-EXPRESSION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DRAFT-MSDP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DS1-MIB
+urn:ietf:params:xml:ns:yang:smiv2:DS3-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ENTITY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ENTITY-SENSOR-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ENTITY-STATE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ENTITY-STATE-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:ETHER-WIS
+urn:ietf:params:xml:ns:yang:smiv2:EXPRESSION-MIB
+urn:ietf:params:xml:ns:yang:smiv2:EtherLike-MIB
+urn:ietf:params:xml:ns:yang:smiv2:FRAME-RELAY-DTE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:HCNUM-TC
+urn:ietf:params:xml:ns:yang:smiv2:IANA-ADDRESS-FAMILY-NUMBERS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IANA-RTPROTO-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IANAifType-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IEEE8021-CFM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IEEE8021-CFM-V2-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IEEE8021-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IEEE8023-LAG-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IGMP-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:INET-ADDRESS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:INT-SERV-MIB
+urn:ietf:params:xml:ns:yang:smiv2:INTEGRATED-SERVICES-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IP-FORWARD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IPMROUTE-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:IPV6-FLOW-LABEL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:LLDP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-L3VPN-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-LDP-GENERIC-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-LDP-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-LSR-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-TC-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-TE-STD-MIB
+urn:ietf:params:xml:ns:yang:smiv2:MPLS-VPN-MIB
+urn:ietf:params:xml:ns:yang:smiv2:NHRP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:NOTIFICATION-LOG-MIB
+urn:ietf:params:xml:ns:yang:smiv2:OLD-CISCO-SYS-MIB
+urn:ietf:params:xml:ns:yang:smiv2:OSPF-MIB
+urn:ietf:params:xml:ns:yang:smiv2:OSPF-TRAP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:P-BRIDGE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:PIM-MIB
+urn:ietf:params:xml:ns:yang:smiv2:PerfHist-TC-MIB
+urn:ietf:params:xml:ns:yang:smiv2:Q-BRIDGE-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RFC-1212
+urn:ietf:params:xml:ns:yang:smiv2:RFC-1215
+urn:ietf:params:xml:ns:yang:smiv2:RFC1155-SMI
+urn:ietf:params:xml:ns:yang:smiv2:RFC1213-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RFC1271-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RFC1315-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RMON-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RMON2-MIB
+urn:ietf:params:xml:ns:yang:smiv2:RSVP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:SNMP-PROXY-MIB
+urn:ietf:params:xml:ns:yang:smiv2:SONET-MIB
+urn:ietf:params:xml:ns:yang:smiv2:TCP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:TOKEN-RING-RMON-MIB
+urn:ietf:params:xml:ns:yang:smiv2:TOKENRING-MIB
+urn:ietf:params:xml:ns:yang:smiv2:TUNNEL-MIB
+urn:ietf:params:xml:ns:yang:smiv2:UDP-MIB
+urn:ietf:params:xml:ns:yang:smiv2:VPN-TC-STD-MIB
+urn:ios
+
+
+:LM-4602 marco$ python3 get_hostname.py 
+csr-nwp1
+
+
+$ python3 get_interfaces_config.py
+<?xml version="1.0" ?>
+<rpc-reply message-id="urn:uuid:f79d1beb-0c4a-41e7-829b-cee71eaded66" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+	<data>
+		<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+			<interface>
+				<name>GigabitEthernet1</name>
+				<type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+				<enabled>true</enabled>
+				<ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+					<address>
+						<ip>198.18.133.212</ip>
+						<netmask>255.255.192.0</netmask>
+					</address>
+				</ipv4>
+				<ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+			</interface>
+			<interface>
+				<name>GigabitEthernet2</name>
+				<type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+				<enabled>false</enabled>
+				<ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+					<address>
+						<ip>10.10.10.1</ip>
+						<netmask>255.255.192.0</netmask>
+					</address>
+				</ipv4>
+				<ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+			</interface>
+		</interfaces>
+	</data>
+</rpc-reply>
